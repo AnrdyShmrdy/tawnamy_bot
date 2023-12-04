@@ -1,7 +1,7 @@
-## Robot Package Template
+## Tawnamy Bot
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+This is an autonomous robot I am working on called the Tawnamy Bot. The end-goal is to have both a simulated robot and a physical robot that can navigate and map it's surroundings.
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
+The plan is to utilize the ROS2 Navigation2 stack and SLAM for autonomous navigation.
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+I am following various tutorials published by Josh Newans of Articulated Robotics to get an idea of how to create the initial robot. As such this will largely be similar to his robot in the beginning, but as time goes on it will deviate as I work towards my own autonomous robot implementation
