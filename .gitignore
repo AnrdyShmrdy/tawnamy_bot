@@ -1,11 +1,6 @@
 ##VSCODE GITIGNORE SECTION##
 
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
@@ -14,7 +9,8 @@
 *.vsix
 
 ##ROS GITIGNORE SECTION##
-
+install/*
+log/*
 devel/
 logs/
 build/
